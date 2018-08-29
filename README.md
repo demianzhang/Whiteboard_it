@@ -1,7 +1,7 @@
 # Whiteboard it
 reproduce Whiteboard it
 
-A Whiteboard detector. Given images of Whiteboard, output Whiteboard's four corners as well as four edges. Then crop the background and leave the Whiteboard in proper position and standard scaling. We can do this in three steps. Firstly, detect edges with hough transform. Then choose the right quadrilateral. Lastly, apply a perspective transform to warp the image.
+A Whiteboard detector. Given images of Whiteboard, output Whiteboard's four corners as well as four edges. Then crop the background and leave the Whiteboard in proper position and standard scaling. We can do this in three steps. Firstly, detect edges with oriented hough transform. Then automatic choose the right quadrilateral. Lastly, apply a perspective transform to warp the image.
 
 Any feedback is welcomed!
 
